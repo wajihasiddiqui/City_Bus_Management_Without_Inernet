@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_marginTop="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        app:lottie_fileName="splash.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bus Route List"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+
+        android:paddingStart="30dp"
+        android:background="#1DA5E3"
+        android:id="@+id/busroute"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Bus Route"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:paddingStart="30dp"
+        android:id="@+id/findbus"
+
+        android:background="#1DA5E3">
+
+    </Button>
+</LinearLayout>
